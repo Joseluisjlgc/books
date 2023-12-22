@@ -1,0 +1,31 @@
+.card {
+    background-color: #ab8d51 ;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    color:#06080F;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.card__portada {
+    width: 100px;
+    height: 150px;
+    margin-right: 20px
+}
+
+.detalles {
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 10px
+}
+
+#numero {
+    width: 35px; 
+}
+
+input[id^="numero"] {
+    width: 35px;
+  }
